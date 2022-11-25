@@ -311,20 +311,6 @@
   color: #E4A16F;
 }
 .header .information-icons {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-  -webkit-align-items: start;
-      -ms-flex-align: start;
-          align-items: start;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1 0 auto;
-      -ms-flex: 1 0 auto;
-          flex: 1 0 auto;
-}
-.header .information-icons__list {
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;

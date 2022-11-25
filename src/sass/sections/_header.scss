@@ -44,15 +44,10 @@
     }
 
     .information-icons {
+        width: 100%;
         display: flex;
-        align-items: start;
-        flex: 1 0 auto;
-        &__list {
-            width: 100%;
-            display: flex;
-            column-gap: 20px;
-            justify-content: flex-end;
-        }
+        column-gap: 20px;
+        justify-content: flex-end;
         &__item {
             width: 50px;
             min-height: 80px;  
