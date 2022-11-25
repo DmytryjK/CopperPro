@@ -12,7 +12,8 @@
         "gulp-sass": "^5.1.0",
         "gulp-svg-sprite": "^2.0.0",
         "imagemin": "^8.0.1",
-        "sass": "^1.56.0"
+        "sass": "^1.56.0",
+        "swiper": "^8.4.5"
     },
     "name": "copperpro",
     "version": "1.0.0",
