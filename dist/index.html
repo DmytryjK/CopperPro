@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="top-navigation header__top-navigation">
+                <div class="logo top-navigation__logo">
+                    <a class="logo__link" href="/" >
+                        <svg class="logo__img">
+                            <use xlink:href="sprites/sprites.svg#icons--Logo"></use>
+                        </svg>
+                    </a>
+                </div>
+
+                <nav class="tabs top-navigation__tabs">
+                    <ul class="tabs__list">
+                        <li class=tabs__item">
+                            <a class="tabs__link" href="#">Каталог</a>
+                        </li>
+                        <li class=tabs__item">
+                            <a class="tabs__link" href="#">Новости</a>
+                        </li>
+                        <li class=tabs__item">
+                            <a class="tabs__link" href="#">Доставка</a>
+                        </li>
+                        <li class=tabs__item">
+                            <a class="tabs__link" href="#">О нас</a>
+                        </li>
+                        <li class=tabs__item">
+                            <a class="tabs__link" href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+    
+                <nav class="information-icons top-navigation__information-icons">
+                    <ul class="information-icons__list">
+                        <li class="information-icons__item information-icons__item_active">
+                            <span>1</span>
+                            <svg class="information-icons__img">
+                                <use xlink:href="sprites/sprites.svg#icons--heart"></use>
+                            </svg>
+                        </li>
+                        <li class="information-icons__item">
+                            <span></span>
+                            <svg class="information-icons__img">
+                                <use xlink:href="sprites/sprites.svg#icons--person"></use>
+                            </svg>
+                        </li>
+                        <li class="information-icons__item">
+                            <span></span>
+                            <svg class="information-icons__img">
+                                <use xlink:href="sprites/sprites.svg#icons--cart"></use>
+                            </svg>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="slider header__slider">
+                <div class="slider__navigation">
+                    <button class="slider__prev-btn">
+                        <svg class="slider__prev-icon">
+                            <use xlink:href="sprites/sprites.svg#icons--slider--prev"></use>
+                        </svg>
+                    </button>
+                    <button class="slider__next-btn">
+                        <svg class="slider__next-icon">
+                            <use xlink:href="sprites/sprites.svg#icons--slider--next"></use>
+                        </svg>
+                    </button>
+                    <ul class="slider__list">
+                        <li class="slider__item">
+                            <button class="slider__btn-dots"></button>
+                        </li>
+                        <li class="slider__item">
+                            <button class="slider__btn-dots"></button>
+                        </li>
+                        <li class="slider__item">
+                            <button class="slider__btn-dots"></button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product header__product">
+                <ul class="product__list">
+                    <li class="product__item product__item_active">
+                        <div class="product__left-side">
+                            <span class="product__label-hit">Хит продаж</span>
+                            <h2 class="product__title">Дистиллятор для эфирных масел</h2>
+                            <div class="product__price">
+                                <p class="product__price-text">Цена</p>
+                                <p class="product__price-cost">4 906 грн</p>
+                            </div>
+                            <button class="main-button product__main-button">Купить</button>
+                        </div>
+                        <div class="product__image">
+                            <img src="./images/distilator-main.png" alt="essential oil distiller image">
+                        </div> 
+                    </li>
+                    <li class="product__item">
+                        <div class="product__left-side">
+                            <span class="product__label-hit">Хит продаж</span>
+                            <h2 class="product__title">Дистиллятор для эфирных масел</h2>
+                            <div class="product__price">
+                                <p class="product__price-text">Цена</p>
+                                <p class="product__price-cost">4 906 грн</p>
+                            </div>
+                            <button class="main-button product__main-button">Купить</button>
+                        </div>
+                        <div class="product__image">
+                            <img src="./images/distilator-main.png" alt="essential oil distiller image">
+                        </div> 
+                    </li>
+                    <li class="product__item">
+                        <div class="product__left-side">
+                            <span class="product__label-hit">Хит продаж</span>
+                            <h2 class="product__title">Дистиллятор для эфирных масел</h2>
+                            <div class="product__price">
+                                <p class="product__price-text">Цена</p>
+                                <p class="product__price-cost">4 906 грн</p>
+                            </div>
+                            <button class="main-button product__main-button">Купить</button>
+                        </div>
+                        <div class="product__image">
+                            <img src="./images/distilator-main.png" alt="essential oil distiller image">
+                        </div> 
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="our-products">
+        <div class="container">
+            <h2 class="title our-products__title">Наша продукция</h2>
+            <ul class="our-products__content">
+                <li class="our-products__item">
+                    <img id="products-img1" src="./images/products/1.jpg" alt="">
+                    <a href="" class="our-products__link">Для эфирных масел</a>
+                </li>
+                <li class="our-products__item">
+                    <img id="products-img2" src="./images/products/2.jpg" alt="">
+                    <a href="" class="our-products__link">Для гидролатов</a>
+                </li>
+                <li class="our-products__item">
+                    <img id="products-img3" src="./images/products/3.jpg" alt="">
+                    <a href="" class="our-products__link">Медная посуда</a>
+                </li>
+                <li class="our-products__item">
+                    <img id="products-img4" src="./images/products/4.jpg" alt="">
+                    <a href="" class="our-products__link">Аксессуары из меди</a>
+                </li>
+                <li class="our-products__item">
+                    <img id="products-img5" src="./images/products/5.jpg" alt="">
+                    <a href="" class="our-products__link">Индивидуальный заказ</a>
+                </li>
+                <li class="our-products__item">
+                    <img id="products-img6" src="./images/products/6.jpg" alt="">
+                    <a href="" class="our-products__link">Скидки и предложения</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="best-sell">
+        <div class="container">
+            <h2 class="title best-sell__title">Лучшие продажи</h2>
+            <div class="slider best-sell__slider">
+                <div class="slider__navigation">
+                    <button class="slider__prev-btn">
+                        <svg class="slider__prev-icon">
+                            <use xlink:href="sprites/sprites.svg#icons--slider--prev"></use>
+                        </svg>
+                    </button>
+                    <button class="slider__next-btn">
+                        <svg class="slider__next-icon">
+                            <use xlink:href="sprites/sprites.svg#icons--slider--next"></use>
+                        </svg>
+                    </button>
+                    <ul class="slider__list">
+                        <li class="slider__item">
+                            <button class="slider__btn-dots"></button>
+                        </li>
+                        <li class="slider__item">
+                            <button class="slider__btn-dots"></button>
+                        </li>
+                        <li class="slider__item">
+                            <button class="slider__btn-dots"></button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <ul class="product-cards best-sell__product-cards">
+                <li class="product-cards__item">
+                    <div class="product-cards__image-block
+                    ">
+                        <img class="product-cards__bg-img" id="product-cards-img1" src="./images/products/1.jpg" alt="">
+                        <span class="product-cards__sale">sale</span>
+                        <button class="product-cards__favorite-btn">
+                            <svg class="product-cards__icon"></svg>
+                            <!-- <svg class="product-cards__icon">
+                                <use xlink:href="sprites/sprites.svg#icons--heart_fill"></use>
+                            </svg> -->
+                        </button>   
+                    </div>
+                    <div class="product-cards__bottom-text">
+                        <p href="" class="product-cards__descr">Медный чайник с фарфоровой ручкой</p>
+                        <span class="product-cards__price">1953 грн.</span>
+                    </div>
+                </li>
+                <li class="product-cards__item">
+                    <div class="product-cards__image-block
+                    ">
+                        <img class="product-cards__bg-img" id="product-cards-img1" src="./images/products/1.jpg" alt="">
+                        <span class="product-cards__sale">sale</span>
+                        <button class="product-cards__favorite-btn"></button>   
+                    </div>
+                    <div class="product-cards__bottom-text">
+                        <a href="" class="product-cards__link">Для эфирных масел</a>
+                    </div>
+                </li>
+                <li class="product-cards__item">
+                    <div class="product-cards__image-block
+                    ">
+                        <img class="product-cards__bg-img" id="product-cards-img1" src="./images/products/1.jpg" alt="">
+                        <span class="product-cards__sale">sale</span>
+                        <button class="product-cards__favorite-btn"></button>   
+                    </div>
+                    <div class="product-cards__bottom-text">
+                        <a href="" class="product-cards__link">Для эфирных масел</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+</header>
+</body>
+
+</html>
