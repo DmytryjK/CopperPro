@@ -1,0 +1,79 @@
+.product-cards {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+
+    &__item {   
+        display: flex;
+        flex-direction: column;
+        width: 446px;
+        height: 561px;
+        &:not(:first-child) {
+            margin-left: 30px;
+        }
+    }
+    &__image-block {
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+    &__bg-img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+    &__sale {
+        position: absolute;
+        top: 27px;
+        left: 0;
+        color: $light-color;
+        background-color: #9B0000;
+        padding: 9px 18px;
+        font-weight: 900;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    &__favorite-btn {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 50px;
+        height: 60px;
+        background-color: $light-color;
+        border: none;
+        cursor: pointer;
+        &:focus {
+            .product-cards__icon {
+                background: url('../../icons/heart_active-gold.svg') center center/cover no-repeat;
+                transition: 0.3s ease-in-out background;
+            }
+        }
+    }
+    &__icon {
+        width: 30px;
+        height: 30px;
+        background: url('../../icons/heart.svg') center center/cover no-repeat;
+        transition: 0.3s ease-in-out background;
+    }
+
+    &__bottom-text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__descr {
+        max-width: 255px;
+        color: $dark-color;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    &__price {
+        flex: 1 0 auto;
+        font-weight: 800;
+        font-size: 30px;
+        color: $dark-color;
+    }
+    
+}
